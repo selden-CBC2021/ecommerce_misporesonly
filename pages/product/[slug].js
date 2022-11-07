@@ -114,7 +114,8 @@ export const getStaticProps = async ({ params: { slug } }) => {
  
   
     return {
-      props: { products, product }
+      props: { products, product },
+      revalidate: 10,
     }
   }
 
