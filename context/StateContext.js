@@ -7,6 +7,15 @@ const Context = createContext();
 
 export const StateContext = ({ children }) => {
     const [showCart, setShowCart] = useState(false);
+
+    // i think set up local storage here something like 
+    // import useLocalStorageState from 'use-local-storage-state'
+
+// export default function Todos() {
+//     const [todos, setTodos] = useLocalStorageState('todos', {
+//         defaultValue: ['buy avocado', 'do 50 push-ups']
+//     })
+// }
     const [cartItems, setCartItems] = useState([]);
     const [totalPrice, setTotalPrice] = useState(0);
     const [totalQuantities, setTotalQuantities] = useState(0);
