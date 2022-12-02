@@ -501,10 +501,10 @@ padding: 30px 65px;
   margin-top: 30px;
   color:#f02d34;
 }
-.price .old-price, .product-price{
+/* .price .old-price, .product-price{
   color: gray;
   text-decoration: line-through;
-}
+} */
 .product-detail-desc .quantity{
   display: flex;
   gap: 20px;
