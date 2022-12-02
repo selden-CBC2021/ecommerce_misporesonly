@@ -724,8 +724,9 @@ margin-top: 160px;
     height: 350px;
   }
   .cart-container{
-    width: 415px;
-  padding: 4px;
+    
+    width: 405px;
+    padding: 5px;
   }
   .cart-heading{
     margin-top: 35px;
@@ -734,12 +735,19 @@ margin-top: 160px;
     margin-top: 10px;
   }
   .product{
-    padding: 20px 5px;
+    padding: 20px 15px;
 
   }
   .product .cart-product-image{
     width: 25%;
     height: 25%;
+  }
+  .track {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 45s linear infinite alternate;
+    width: 180%;
   }
   .buttons .add-to-cart{
     width: 150px;
