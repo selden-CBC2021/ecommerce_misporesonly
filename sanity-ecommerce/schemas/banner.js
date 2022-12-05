@@ -4,11 +4,20 @@ export default {
     type: 'document',
     fields: [
         {
-            name: 'image',
-            title: 'Image',
+            name: 'image1',
+            title: 'Image1',
             type: 'image',
             options: {
                 hotspot: true,
+            },
+        },
+        {
+            
+            name: 'image2',
+            title: 'Image2',
+            type: 'image',
+            options: {
+            hotspot: true,
             },
         },
         {
