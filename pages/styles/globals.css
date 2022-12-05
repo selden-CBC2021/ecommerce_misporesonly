@@ -761,9 +761,11 @@ margin-top: 160px;
     width: 150px;
   }
   .product-detail-container{
-    justify-content: center;
+    justify-content: space-evenly;
   }
-  
+  .small-images-container{
+    flex-wrap: wrap;
+  }
 .item-desc .flex{
   width: 200px;
 }
